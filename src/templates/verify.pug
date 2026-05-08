@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h3 Hi #{name},
+
+  p 🎉 Your account has been successfully verified.
+
+  p You can now log in using your registered email:
+
+  table(style="margin-top:10px; margin-bottom:10px")
+    tr
+      td(style="padding:5px 0; font-weight:bold") Email:
+      td(style="padding:5px 0") #{email}
+
+  p If you did not perform this verification, please contact our support team immediately.
+
+  br
+
+  p Thanks,
+  p Team Yifu
